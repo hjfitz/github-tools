@@ -1,0 +1,26 @@
+{
+  "name": "github-tools",
+  "version": "1.0.0",
+  "description": "Small utilities to work with github's APIv3",
+  "main": "dist/index.js",
+  "repository": "https://github.com/hjfitz/github-tools",
+  "author": "Harry <hfitz83@gmail.com>",
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "^3.1.0",
+    "sleep": "^5.1.1",
+    "typescript": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/debug": "^0.0.30",
+    "@types/es6-promise": "^3.3.0",
+    "@types/sleep": "^0.0.7",
+    "tslint": "^5.9.1"
+  }
+}
